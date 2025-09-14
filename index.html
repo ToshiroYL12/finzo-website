@@ -12,20 +12,20 @@
   small,footer{color:#555}
   nav a{margin-right:12px}
   .card{border:1px solid #ddd;border-radius:8px;padding:16px}
+  .site-header{display:flex;align-items:center;gap:16px}
+  .logo{width:72px;height:72px;border-radius:50%;border:1px solid #e5e7eb;object-fit:cover}
+  @media (min-width:768px){.logo{width:96px;height:96px}}
 </style>
 </head>
 <body>
-<header>
-  <h1>Finzo</h1>
-  <small>Bot de finanzas personales en WhatsApp</small>
-  <nav>
-    <a href="#quees">Qué es</a>
-    <a href="#como-funciona">Cómo funciona</a>
-    <a href="#contacto">Contacto</a>
-    <a href="#privacidad">Privacidad</a>
-    <a href="#terminos">Términos</a>
-  </nav>
+<header class="site-header">
+  <img src="assets/finzo-avatar-1024.png" alt="Finzo" class="logo" width="96" height="96">
+  <div>
+    <h1>Finzo</h1>
+    <p>Bot de finanzas personales en WhatsApp</p>
+  </div>
 </header>
+
 
 <section id="quees" class="card">
   <h2>Qué es Finzo</h2>
